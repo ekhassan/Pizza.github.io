@@ -1,0 +1,70 @@
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+#hero {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+li,
+form {
+  padding: 1rem 1rem;
+}
+nav .nav-link {
+  color: white !important;
+}
+
+nav li .nav-link:hover {
+  transition: 0.5s;
+  color: #ffc107 !important;
+}
+.cat {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+.cat:hover {
+  transition: 0.1s;
+  outline: 0.1rem solid #ffc107;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.cat-link {
+  color: black;
+  transition: 0.5s;
+}
+.cat-link:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+#about ul li
+{
+    list-style: none;
+}
+.rounded-lg
+{
+  border-radius: 0.5rem !important;
+}
+#carousel-inner
+{
+  border-radius: 0.5rem ;
+}
+#reviews img
+{
+  width: 15% ;
+}
+#contact .social
+{
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.5s;
+}
+#contact .social:hover
+{
+  color: #ffc107;
+}
